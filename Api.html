@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header>
+    <img src="loho.jpeg" class="logo"><i class="fas fa-utensils"></i>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <nav class="navbar">
+    <a href ="#home">Home</a>
+    <a href="#speciality">speciality</a>
+    <a href="#popular">popular</a>
+    <a href="#gallery">gallery</a>
+    <a href="#review">Review</a>
+    <a href="#order">order</a>
+    </nav>
+</header>
+ <h1>Cuisine For You </h1>
+<div class="container">
+<div class="meal-wrapper">
+<div class="meal-search">
+<h2 class="titlle">Find Meals For Your Ingredients</h2>
+<blockquote>Real food dosen't have Ingredients, real food is ingredients.<br>
+<cite>-Jamie Oliver</cite>
+</blockquote>
+
+<div class="meal-search-box">
+<input type="text" class="search-content" placeholder="Enter an ingredient" id="search-input">
+<button type="submit" class="search-btn btn" id="search-btn">
+    <i class="fas fa-search"></i>
+</button>
+</div>
+</div>
+
+<div class="meal-result">
+<h2 class="title">Your search Results:</h2>
+<div id="meal">
+
+<!--meal item-->
+<div class="meal-item">
+    <div class="meal-img">
+<img src="hamburgeramericain.jpg" alt="">
+
+    </div>
+
+
+
+</div>
+
+
+
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<h1>API de youtube :réserve avec nous et découvre notre restaurant et decouvrez nos plats
+</h1>
+<center><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Aj6El__u6Ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+
+
+
+<style>
+
+
+*{
+    padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+
+}
+body{
+font-weight: 300;
+font-size: 1.05rem;
+line-height: 1.6;
+font-family: 'Poppins', sans-serif;
+}
+header{
+    position: auto;
+top: 0%; left: 0%; right: 0%;
+z-index: 1000;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background: beige;
+padding: 2rem 9%;
+box-shadow: 0 .5rem 1rem #666 rgba(0,0,0,);
+}
+header .logo{
+    font-size: 2.5rem;
+    width: auto;
+color: #666;
+
+}
+
+
+header .navbar a{
+      font-size: 2rem;
+margin-left: 2rem;
+color: #666;
+}
+header .navbar a :hover {
+
+    color: red ;
+}
+#menu-bar{
+    font-size: 3rem;
+    cursor: pointer;
+color: #333;
+border: 1rem solid #666;
+border-radius: 3rem;
+padding: 5rem 1.5rem;
+display: none;
+}
+
+
+.btn{
+font-family: inherit ;
+cursor: pointer;
+outline: 0;
+font-size: 1.05rem;
+}
+.title{
+    font-size: 2rem;
+margin-bottom: 1rem;
+}
+.container{
+    min-height: 100vh;
+}
+.meal-wrapper{
+max-width: 1200px;
+margin: 0 auto;
+padding: 2rem;
+background: #fff;
+text-align: center;
+}
+.meal-search{
+    margin: 2rem 0;
+}
+.meal-search cite{
+    font-size: 1rem;
+}
+.meal-search-box{
+    margin: 1.2rem 0;
+display: flex;
+align-items: stretch;
+}
+.search-control,
+.search-btn{
+    width: 100%;
+}
+.search-control{
+    padding: 0 1rem;
+font-size: 1.1rem;
+font-family: inherit;
+outline: auto;
+border: 1px solid ;
+border-top-left-radius:2rem ;
+border-bottom-left-radius: 2rem;
+}
+.search-control::placeholder{
+color: rosybrown;
+}
+.search-btn{
+width: 55px;
+height: 55px;
+font-size: 1.8rem;
+background: rosybrown;
+color: #fff;
+border: none;
+border-top-right-radius: 2rem;
+border: botton right radius 2rem;
+
+
+
+
+
+}
+
+
+
+h1{
+    text-align: center;
+    background-color: greenyellow;
+}
+
+
+img{
+height: auto;
+width: 50%;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+</style>
+    <script src="Api.js"></script>
+</body>
+</html>
